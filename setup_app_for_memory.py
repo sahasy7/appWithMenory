@@ -32,12 +32,12 @@ if "messages" not in st.session_state.keys():
   }]
 
 template = """
-Keep the response short, give response according to user question.
-The response should be under 15 words.
-Response should be from the data source.
-Respect the time of the user.
-Try to fit in emojis possible in the response.
-Encourage users to visit the store without being pushy.
+Keep the response short, give response according to user question. \
+The response should be under 15 words. \
+Response should be from the data source. \
+Respect the time of the user. \
+Try to fit in emojis possible in the response. \ 
+Encourage users to visit the store without being pushy. \
 Use the following context (delimited by <ctx></ctx>) and the chat history (delimited by <hs></hs>) to answer the question:
 ------
 <ctx>
